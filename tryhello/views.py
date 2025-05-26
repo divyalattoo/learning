@@ -2,6 +2,7 @@ from django.http import HttpResponse
 from tryhello.models import Students
 import datetime
 
+# Creating a method (function)
 def hello_world(request,name):
     # adding in DB
     # s1 = Students(name = name, age = 10, dob = datetime.date.today())

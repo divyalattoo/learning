@@ -24,4 +24,6 @@ urlpatterns = [
     path("admin/", admin.site.urls),
 
     path('', include('tryhello.urls')),
+
+    path('api/',include('library.urls')),
 ]
