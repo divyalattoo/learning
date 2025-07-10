@@ -5,5 +5,5 @@ class TicketResponse:
         self.vehicle_number = None
         self.slot = None
         self.floor = None
-
+        self.status = None
 
